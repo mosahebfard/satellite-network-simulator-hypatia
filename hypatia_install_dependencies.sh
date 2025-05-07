@@ -32,7 +32,8 @@ echo "There are currently no dependencies for satviz."
 # paper
 echo "Installing dependencies for paper..."
 pip install numpy || exit 1
-pip install git+https://github.com/snkas/exputilpy.git@v1.6 || exit 1
+# pip install git+https://github.com/snkas/exputilpy.git@v1.6 || exit 1
+pip install git+https://github.com/snkas/exputilpy.git@v1.8.2
 pip install git+https://github.com/snkas/networkload.git@v1.3 || exit 1
 sudo apt-get install gnuplot
 
